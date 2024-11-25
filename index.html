@@ -1,1 +1,98 @@
-hello world!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist CV</title>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #121212; /* 深灰黑色背景 */
+            color: #e0e0e0; /* 柔和的白色字体 */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #1e1e1e; /* 浅黑背景，用于提升层次感 */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* 轻微阴影 */
+            border-radius: 8px; /* 圆角边框 */
+        }
+        h1, h2, h3 {
+            color: #ffffff; /* 突出标题 */
+        }
+        a {
+            color: #90caf9; /* 柔和的蓝色超链接 */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: none; /* 去掉默认的圆点 */
+            padding: 0;
+        }
+        li::before {
+            content: "▸ "; /* 使用箭头符号 */
+            color: #90caf9; /* 蓝色箭头符号 */
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .divider {
+            border-bottom: 1px solid #333; /* 细分割线 */
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Yuxing Xiao</h1>
+        <p>
+            📍 Łódź, Łódzkie, Poland<br>
+            📧 <a href="mailto:yuxing.xiao.cn@gmail.com">yuxing.xiao.cn@gmail.com</a><br>
+            🌐 <a href="https://yuxingxiao.github.io" target="_blank">yuxingxiao.github.io</a>
+        </p>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                I am a sophomore computer science student at the University of Łódź. Through my coursework, 
+                I have built a solid foundation in programming languages such as JavaScript, C++, C#, and Python. 
+                Passionate about game development, I spend my spare time self-learning game engines like Unity. 
+                My goal during my academic journey is to independently develop small game projects, 
+                with a vision to pursue a career in the video game industry.
+            </p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript / C++ / C# / Python</li>
+                <li>Unity Game Engine</li>
+                <li>Web Development Basics</li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <h3>University of Łódź</h3>
+            <p><em>Bachelor's Degree in Computer Science</em></p>
+            <p>October 2023 - September 2026</p>
+
+            <h3>Changchun University of Technology</h3>
+            <p><em>Bachelor's Degree in Finance</em></p>
+            <p>September 2017 - September 2021</p>
+        </div>
+    </div>
+</body>
+</html>

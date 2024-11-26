@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minimalist CV</title>
+    <title>Yuxing Xiao'CV</title>
     <style>
         body {
             font-family: "Arial", sans-serif;
@@ -46,16 +46,35 @@
             border-bottom: 1px solid #333; /* 细分割线 */
             margin: 20px 0;
         }
+        .info {
+            flex: 1; /* 左侧信息占据剩余空间 */
+        }
+        .photo {
+            margin-left: 20px; /* 左侧留空隙 */
+        }
+        .photo img {
+            width: 150px; /* 设置照片宽度 */
+            height: 150px;
+            border-radius: 50%; /* 照片设置为圆形 */
+            object-fit: cover; /* 确保图像适应容器 */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <div class="info">
         <h1>Yuxing Xiao</h1>
         <p>
             📍 Łódź, Łódzkie, Poland<br>
             📧 <a href="mailto:yuxing.xiao.cn@gmail.com">yuxing.xiao.cn@gmail.com</a><br>
             🌐 <a href="https://yuxingxiao.github.io" target="_blank">yuxingxiao.github.io</a>
         </p>
+        </div>
+
+        <div class="photo">
+            <img src="YuxingPhoto.jpg" alt="Yuxing Xiao's Photo">
+        </div>
 
         <div class="divider"></div>
 
